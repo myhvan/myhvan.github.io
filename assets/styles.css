@@ -4,19 +4,20 @@
   @web https://codecyan.com
 */
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face{
+    font-family: "Agrandir Narrow";
+    src: url('PPAgrandir-NarrowRegular.otf');
+}
 :root {
   --font-size: 18px;
-  --accent: #2a4f4e;
+  --accent: #306C50;
   --title-color: #0e2f3e;
 }
 
 body {
   font-size: var(--font-size);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Agrandir Narrow", sans-serif;
 }
 
 a {
@@ -38,7 +39,8 @@ h6 {
 
 .nav-link {
   text-transform: uppercase;
-  font-family: "Space Mono", monospace;
+  font-weight: black;
+  font-family: "Agrandir Narrow", monospace;
 }
 
 .nav-link.active {
@@ -85,15 +87,15 @@ h6 {
 }
 
 .bg-yellow-codecyan {
-  background-color: #fcd252;
+  background-color: #FFD6C7;
 }
 
 .bg-blue-codecyan {
-  background-color: #30376d;
+  background-color: #6181B2;
 }
 
 .bg-green-codecyan {
-  background-color: #2e646e;
+  background-color: #306C50;
 }
 
 a.dev-codecyan {
