@@ -87,7 +87,7 @@ h6 {
 }
 
 .bg-yellow-codecyan {
-  background-color: #FFD6C7;
+  background-color: #FFF098;
 }
 
 .bg-blue-codecyan {
@@ -96,6 +96,18 @@ h6 {
 
 .bg-green-codecyan {
   background-color: #306C50;
+}
+
+.bg-red-codecyan{
+  background-color: #E07D7D;
+}
+
+.bg-pink-codecyan{
+  background-color: #FFD6C7;
+}
+
+.bg-orange-codecyan{
+  background-color: #FFBB77;
 }
 
 a.dev-codecyan {
