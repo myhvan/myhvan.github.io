@@ -77,23 +77,85 @@
     <main class="main-codecyan">
 
         <section class="bg-white py-5">
-           
-        </section>
+            <div class="d-flex flex-column justify-content-center mx-auto">
 
-        <section class="bg-odd-codecyan py-5">
+                    <form action="https://api.web3forms.com/submit" method="POST" id="form" class="needs-validation" novalidate>
+                        <input type="hidden" name="access_key" value="b4754b98-8c7b-49ff-bbfb-80423572f43b" />
+                        <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                        <input type="checkbox" name="botcheck" id="" style="display: none;" />
             
+                        <div class="d-flex flex-row justify-content-center mb-4">
+                        <div class="d-flex flex-column col-md-8">
+                            <label for="fname">First Name</label>
+                            <input type="text" name="name" id="first_name" placeholder="John" required class="px-3 py-2 placeholder-gray border rounded" />
+                            <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                            Please provide your first name.
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="d-flex flex-row justify-content-center mb-4">
+                        <div class="d-flex flex-column col-md-8">
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="last_name" id="lname" placeholder="Doe" required class="px-3 py-2 placeholder-gray border rounded" />
+                            <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                            Please provide your last name.
+                            </div>
+                        </div>
+                        </div>
+            
+                        <div class="d-flex flex-row justify-content-center mb-4">
+                        <div class="d-flex flex-column col-md-8">
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email" placeholder="you@company.com" required class="px-3 py-2 placeholder-gray border rounded" />
+                            <div class="empty-feedback text-red-400 text-sm mt-1">
+                            Please provide your email address.
+                            </div>
+                            <div class="invalid-feedback text-red-400 text-sm mt-1">
+                            Please provide a valid email address.
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="d-flex flex-row justify-content-center mb-4">
+                        <div class="d-flex flex-column col-md-8">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="px-3 py-2 placeholder-gray border rounded" />
+            
+                            <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                            Please provide your phone number.
+                            </div>
+                        </div>
+                        </div>
+                        
+                        
+                        <div class="d-flex flex-row justify-content-center mb-4">
+                            <div class="d-flex flex-column col-md-8 mb-4">
+                            <label for="message">Your Message</label>
+                            <textarea rows="5" name="message" id="message" placeholder="Your Message" class="px-3 py-2 placeholder-gray border rounded" required></textarea>
+                            <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                Please enter your message.
+                            </div>
+                            <button type="submit" class="btn btn-accent-codecyan btn-lg mt-4">Send Message</button>
+                            <p class="text-base text-center text-gray-400" id="result"></p>
+                            </div>
+                        </div>
+
+                    </form>
+
+            </div> 
         </section>
 
     </main>
 
-    <footer id="contact" class="bg-white py-5">
+    <footer id="contact" class="bg-odd-codecyan py-5">
         <div class="container-xxl g-codecyan overflow-hidden py-5">
             <div class="row justify-content-between gx-0 gy-5">
                 <div class="col-md-7">
                     <p class="display-4 fw-bold">See anything you like? <br> Reach out and let's get to know each other :) </p>
                 </div>
                 <div class="col-md-3">
-                    <h5 class="fs-2 fw-bold">Contact</h2>
+                    <h5 class="fs-2 fw-bold">Contact</h5>
                     <p class="mt-3 fs-5">myhvan2000@gmail.com</p>
                     <a href="https://www.linkedin.com/in/myvan" class="text-decoration-none"><p class="mt-3 fs-5">linkedin.com/in/myvan</p></a>
                     <ul class="navbar-nav gap-2 mt-5">
