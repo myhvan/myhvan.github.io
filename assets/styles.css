@@ -136,6 +136,7 @@ a.dev-codecyan:hover {
 .placeholder-gray{
   color: #a9a9ac;
 }
+
 .invalid-feedback,
 .empty-feedback {
   display: none;
