@@ -20,9 +20,12 @@ body {
   font-family: "Agrandir Narrow", sans-serif;
 }
 
-.navbar, footer, section{
+@media screen and (min-width: 992px){
+ .navbar, footer, section{
   padding-left: 10%;
   padding-right: 10%;
+}
+
 }
 
 a {
@@ -41,26 +44,6 @@ h5,
 h6 {
   color: var(--title-color);
 }
-
-/*h1, .display-1, .fs-1 {
-  font-size: calc(4*var(--font-size));
-}
-
-h2, .fs-2{
-  font-size: calc(2*var(--font-size));
-}
-
-h3, .display-3, .fs-3{
-  font-size: calc(2*var(--font-size));
-}
-
-h4, .display-4, .fs-4{
-  font-size: calc(1.5*var(--font-size));
-}
-
-h5, .fs-5{
-  font-size: var(--font-size);
-}*/
 
 .nav-link {
   text-transform: uppercase;
