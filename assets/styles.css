@@ -110,6 +110,14 @@ h6 {
   background-color: #ff8d42;
 }
 
+.bg-purple-codecyan{
+  background-color: #2B2761;
+}
+
+.bg-red-codecyan{
+  background-color: #A65959;
+}
+
 a.dev-codecyan {
   text-decoration: none;
 }
